@@ -1,0 +1,19 @@
+{
+  "name": "webpack-bybcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "byb": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "webpack": "^5.69.1",
+    "yargs": "^17.3.1"
+  }
+}

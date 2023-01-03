@@ -37,7 +37,7 @@ class PreventWhiteScreen {
           } catch (err) {
             suffix = '';
           }
-          if(['js','jsx'].includes(suffix)){
+          if(['js','jsx','ts','tsx'].includes(suffix)){
             fs.readFile(item,(err,data) => {
               if(err){
                 console.log(err);

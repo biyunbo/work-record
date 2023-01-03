@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "dev":"anywhere -p 10008"
+  }
+}
